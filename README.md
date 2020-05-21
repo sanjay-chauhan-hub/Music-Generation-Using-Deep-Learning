@@ -1,6 +1,5 @@
 # Music Generation Using Deep-Learning
-## Check out the blog of this case study at the following link:
-https://medium.com/@gauravsharma2656/music-generation-using-deep-learning-85010fb982e2
+
 ## Real World Problem
 This case-study focuses on generating music automatically using Recurrent Neural Network(RNN). 
 We do not necessarily have to be a music expert in order to generate music. Even a non expert can generate a decent quality music using RNN.
@@ -20,29 +19,3 @@ You can also load weights which are in the file" Data2/Model_Weights/". There ar
 You can add more layers into your model and fine tune the existing layers in the model. Any epoch weight can be loaded for fine tuning or "Transfer Learning".
 ## How to Generate Music Sequence
 Once the model is defined and weights are calculated then run "Generate_Music.ipynb" file. If the architecture of your model is different than just change the architecture of the model in "make_model" function and generate music sequence.
-## Type of Data:
-There are total of 405 music tunes in abc notation.
-## Prerequisites
-You need to have installed following softwares and libraries in your machine before running this project.
-1. Python 3
-2. Anaconda: It will install ipython notebook and most of the libraries which are needed like sklearn, pandas, seaborn, matplotlib, numpy, scipy.
-3. keras
-## Installing
-1. Python 3: https://www.python.org/downloads/
-2. Anaconda: https://www.anaconda.com/download/
-3. Keras: pip install keras
-## Built With
-* ipython-notebook - Python Text Editor
-* numpy, scipy- number python library
-* pandas - data handling library
-* Keras - Deep Learning Library
-## Authors
-* Gaurav Sharma - Complete work  
-## References
-* https://www.appliedaicourse.com/
-* https://folkrnn.org/
-* https://en.wikipedia.org/wiki/ABC_notation
-* https://abcjs.net/abcjs-editor.html
-* https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5
-* http://karpathy.github.io/2015/05/21/rnn-effectiveness/
-* https://medium.com/artists-and-machine-intelligence/neural-nets-for-generating-music-f46dffac21c0
